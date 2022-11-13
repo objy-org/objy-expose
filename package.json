@@ -31,10 +31,10 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "objy-connect",
+  "name": "objy-expose",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/objy-org/objy-connect.git"
+    "url": "git+https://github.com/objy-org/objy-expose.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,4 +1,4 @@
-# OBJY CONNECT - Build a Platform
+# OBJY Expose - Build a Platform
 
 A JavaScript Framework for building custom platforms on Node.
 
@@ -12,15 +12,15 @@ Platforms, from a technical perspective must be able to run on any modern infras
 ### NPM
 
 ```shell
-npm install objy-connect
+npm install objy-expose
 ```
 
 ## Quick Example
 
 
 ```javascript
-// Include OBJY CONNECT (Node.js)
-const CONNECT = require('objy-connect');
+// Include OBJY Expose (Node.js)
+const Expose = require('objy-connect');
 const OBJY = require('objy');
 
 // define one or more OBJY object types
@@ -32,7 +32,7 @@ OBJY.define({
 })
 
 // Initialize REST Interface
-CONNECT.REST({
+Expose.REST({
     port: 80,
     redisCon: {
         port: 6379,
@@ -43,4 +43,4 @@ CONNECT.REST({
 
 ## How does it work?
 
-CONNECT is built on top of OBJY. Therefore ist uses the "everything is a dynamic, behaviour-driven object" approach. This means that everyth
+Expose is built on top of OBJY. Therefore ist uses the "everything is a dynamic, behaviour-driven object" approach. This means that everyth

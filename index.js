@@ -2,7 +2,7 @@ var Rest = require('./catalog/rest.js');
 
 const LEGACY_BLACKLIST = ['$propsAsObj']
 
-const CONNECT = {
+const EXPOSE = {
 
     authorisationsEnabled: false,
 
@@ -179,4 +179,4 @@ const CONNECT = {
     }*/
 }
 
-module.exports = CONNECT;
+module.exports = EXPOSE;
