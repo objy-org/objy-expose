@@ -20,7 +20,7 @@ npm install objy-expose
 
 ```javascript
 // Include OBJY Expose (Node.js)
-const Expose = require('objy-connect');
+const Expose = require('objy-expose');
 const OBJY = require('objy');
 
 // define one or more OBJY object types
