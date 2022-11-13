@@ -1,0 +1,43 @@
+{
+  "author": {
+    "name": "Marco Boelling"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.0",
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "ioredis": "^4.14.0",
+    "is-stream": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "localStorage": "^1.0.4",
+    "lokijs": "^1.5.6",
+    "lowdb": "^1.0.0",
+    "mingo": "^2.3.5",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.4",
+    "nedb": "^1.8.0",
+    "shortid": "^2.2.14",
+    "vm2": "^3.8.1"
+  },
+  "description": "A JavaScript framework to build multi purpose platforms",
+  "keywords": [
+    "platform",
+    "javascript",
+    "objects"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "objy-connect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/objy-org/objy-connect.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}
